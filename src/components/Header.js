@@ -10,7 +10,10 @@ function Header() {
     return (
         <Container>
             <a href="#">
-                <img src="/images/logo.svg" alt="" />
+                <img
+                    src="https://sh-lee2.github.io/tesla-clone/images/logo.svg"
+                    alt=""
+                />
             </a>
             <Menu>
                 {cars &&

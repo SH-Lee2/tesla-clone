@@ -24,7 +24,7 @@ function Section({
                         <RightButton>{rightBtnText}</RightButton>
                     </ButtonGroup>
                 </Fade>
-                <DownArrow src="/images/down-arrow.svg" />
+                <DownArrow src="https://sh-lee2.github.io/tesla-clone/images/down-arrow.svg" />
             </Buttons>
         </Wrap>
     );
@@ -38,7 +38,8 @@ const Wrap = styled.div`
     background-size: cover;
     background-position: center;
     background-repeat: not-repeat;
-    background-image: ${(props) => `url("/images/${props.bgImage}")`};
+    background-image: ${(props) =>
+        `url("https://sh-lee2.github.io/tesla-clone/images/${props.bgImage}")`};
     display: flex;
     flex-direction: column;
     align-items: center;
